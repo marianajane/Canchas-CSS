@@ -16,6 +16,7 @@
     border-radius: 0 160px 160px 0;
     float:left;
 	margin-top: 45px;
+    position: absolute;
 }
 
 #linea2 {
@@ -51,25 +52,49 @@
 }
 
 #trapecio1 {
-    width: 80px;
+    width: 90px;
     height: 0px;
     border-right: 20px solid transparent;
     border-left: 20px solid transparent;
     border-top: 130px solid #E17311;
-    margin-left: 5px;
-    margin-top: 140px;
+    margin-left: 3px;
+    margin-top: 130px;
     position:absolute;
     -webkit-transform: rotate(270deg) skew(0deg);
 }
 
 #circulo1 {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 2px solid black; 
-    margin-left: 95px;
-    margin-top: 160px;
+    margin-left: 93px;
+    margin-top: 150px;
+    position: absolute; 
+}
+
+#trapecio2 {
+    width: 90px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 130px solid #E17311;
+    margin-right: auto;
+    margin-top: 130px;
+    position:absolute; left:895px;
+    -webkit-transform: rotate(90deg) skew(0deg);
+}
+
+#circulo2 {
+    width: 90px;
+    height: 90px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid black; 
+    margin-left: 512px;
+    margin-top: 150px;
     position: absolute; 
 }
