@@ -1,0 +1,75 @@
+body {
+	color: purple;
+	font-family: helvetica;
+	text-align: center;
+}
+
+#cancha1 {
+	width: 700px;
+	height: 400px;
+	background: green;
+	border: 2px white;
+	margin: auto auto;
+}
+
+#rectangulo1 {
+	width: 90px;
+	height: 200px;
+	border: 2px solid #FFFCFE;
+	margin: auto auto;
+	float:left;
+	margin-top: 100px;
+}
+
+#semicirculo1 {
+    width: 40px; 
+    height: 80px; 
+    border: 1px solid #FFFCFE; 
+    -moz-border-radius: 0 80px 80px 0;
+    -webkit-border-radius: 0 80px 80px 0;
+    border-radius: 0 80px 80px 0;
+    float:left;
+	margin-top: 150px;
+}
+
+#linea1 {
+	float:left;
+	border-left: 2px solid #FFFCFE; 
+	width:2px;
+	height:400px;
+	margin-left: 350px;
+	position: absolute;
+}
+
+#mediaCancha {
+    width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  	border: 2px solid #FFFCFE; 
+    margin-left: 309px;
+    margin-top: 150px;
+	position: absolute; 
+}
+
+#rectangulo2 {
+	width: 90px;
+	height: 200px;
+	border: 2px solid #FFFCFE;
+	margin: auto auto;
+	float: right;
+	margin-top: 100px;
+}
+
+#semicirculo2 {
+    width: 40px; 
+    height: 80px; 
+    border: 1px solid #FFFCFE; 
+    -moz-border-radius: 80px 0 0 80px;
+    -webkit-border-radius: 80px 0 0 80px;
+    border-radius: 80px 0 0 80px;
+    float:right;
+	margin-top: 150px;
+	filter: flip;
+}
