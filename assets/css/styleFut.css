@@ -10,6 +10,7 @@ body {
 	background: green;
 	border: 2px white;
 	margin: auto auto;
+	display: none;
 }
 
 #rectangulo1 {
@@ -24,7 +25,7 @@ body {
 #semicirculo1 {
     width: 40px; 
     height: 80px; 
-    border: 1px solid #FFFCFE; 
+    border: 2px solid #FFFCFE; 
     -moz-border-radius: 0 80px 80px 0;
     -webkit-border-radius: 0 80px 80px 0;
     border-radius: 0 80px 80px 0;
@@ -32,7 +33,7 @@ body {
 	margin-top: 150px;
 }
 
-#linea1 {
+.linea {
 	float:left;
 	border-left: 2px solid #FFFCFE; 
 	width:2px;
@@ -65,11 +66,15 @@ body {
 #semicirculo2 {
     width: 40px; 
     height: 80px; 
-    border: 1px solid #FFFCFE; 
+    border: 2px solid #FFFCFE; 
     -moz-border-radius: 80px 0 0 80px;
     -webkit-border-radius: 80px 0 0 80px;
     border-radius: 80px 0 0 80px;
     float:right;
 	margin-top: 150px;
 	filter: flip;
+}
+
+#trapecio1 {
+	
 }
