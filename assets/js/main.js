@@ -1,4 +1,5 @@
 
+//CANCHA DE FUTBOL
 var botonCanchaFut=document.getElementById("canchaFut")
 botonCanchaFut.addEventListener("click", mostrarCanchaFut);
 
@@ -8,6 +9,7 @@ function mostrarCanchaFut() {
     document.getElementById("cancha3").style.display = "none";
 }
 
+//CANCHA DE BASQUETBOL
 var botonCanchaBasquet=document.getElementById("canchaBasquet")
 botonCanchaBasquet.addEventListener("click", mostrarCanchaBasquet);
 
@@ -17,6 +19,7 @@ function mostrarCanchaBasquet() {
     document.getElementById("cancha3").style.display = "none";
 }
 
+//CANCHA DE TENIS
 var botonCanchaTenis=document.getElementById("canchaTenis")
 botonCanchaTenis.addEventListener("click", mostrarCanchaTenis);
 
