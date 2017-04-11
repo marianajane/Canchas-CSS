@@ -1,6 +1,6 @@
 body {
-	color: purple;
-	font-family: helvetica;
+	color: black;
+	font-family: 'Pacifico', cursive;
 	text-align: center;
 }
 
@@ -73,8 +73,4 @@ body {
     float:right;
 	margin-top: 150px;
 	filter: flip;
-}
-
-#trapecio1 {
-	
 }
